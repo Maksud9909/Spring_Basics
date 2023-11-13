@@ -9,6 +9,7 @@ public class Test1 {
         Pet pet = context.getBean("MyPet",Pet.class);
         pet.say();
         context.close();
+        System.out.println("Hello world");
     }
 }
 

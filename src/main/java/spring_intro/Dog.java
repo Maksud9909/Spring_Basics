@@ -9,5 +9,5 @@ public class Dog implements Pet{
 }
 
 interface Pet {
-    public void say();
+     void say();
 }

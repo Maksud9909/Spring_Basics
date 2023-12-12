@@ -10,6 +10,7 @@ public class Test3 {
         Person person = context.getBean("myPerson",Person.class);
         person.callYourPet();
 
+
         context.close();
     }
 }

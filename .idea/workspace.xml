@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d1f144-e51d-4a91-a2a0-2d077c5622c7" name="Changes" comment="Learning of Spring">
+    <list default="true" id="18d1f144-e51d-4a91-a2a0-2d077c5622c7" name="Changes" comment="Setting Dependency Injection in Spring">
+      <change afterPath="$PROJECT_DIR$/resources/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/applicationContext3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/myApp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Test3.java" afterDir="false" />
     </list>
@@ -25,6 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/spring_intro/Test4.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -34,22 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test4.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/maksudrustamov/Documents/JavaProjects/Spring_Basics/resources",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test3">
+  <component name="RunManager" selected="Application.Test4">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.maksudrustamov.spring.App" />
       <module name="Spring_Basics" />
@@ -89,13 +106,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_intro.Test4" />
+      <module name="Spring_Basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring_intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Test3" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-8336523bb0d9-641c9356" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,7 +151,16 @@
       <workItem from="1700216978893" duration="917000" />
       <workItem from="1700480826775" duration="2419000" />
       <workItem from="1701927190158" duration="869000" />
-      <workItem from="1702391709788" duration="281000" />
+      <workItem from="1702391709788" duration="3551000" />
+      <workItem from="1702479927507" duration="693000" />
+      <workItem from="1702483055068" duration="121000" />
+      <workItem from="1702483227295" duration="57000" />
+      <workItem from="1702484104108" duration="26000" />
+      <workItem from="1702485633136" duration="2078000" />
+      <workItem from="1702489109949" duration="1474000" />
+      <workItem from="1702490699159" duration="1006000" />
+      <workItem from="1702491769053" duration="9000" />
+      <workItem from="1702541060725" duration="1971000" />
     </task>
     <task id="LOCAL-00001" summary="Learning of Spring">
       <option name="closed" value="true" />
@@ -155,11 +202,20 @@
       <option name="project" value="LOCAL" />
       <updated>1700482712235</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Setting Dependency Injection in Spring">
+      <option name="closed" value="true" />
+      <created>1702392291309</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702392291309</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Learning of Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learning of Spring" />
+    <MESSAGE value="Setting Dependency Injection in Spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting Dependency Injection in Spring" />
   </component>
 </project>

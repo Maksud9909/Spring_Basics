@@ -10,13 +10,13 @@
 
 
 <bean id="myPet1"
-      class="spring_intro.Dog"
+      class="spring_intro.Classes.Dog"
       init-method="init"
       destroy-method="destroy"
 scope="prototype">
 </bean>
     <bean id="myPet2"
-          class="spring_intro.Cat"
+          class="spring_intro.Classes.Cat"
           init-method="init"
           destroy-method="destroy"
           scope="prototype">

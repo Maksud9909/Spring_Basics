@@ -1,8 +1,10 @@
-package spring_intro;
+package spring_intro.Classes;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-//@Component("dogBean")
+@Component("dogBean")
+@Scope("prototype")
 public class Dog implements Pet{
 
     public Dog() {
@@ -26,6 +28,3 @@ public class Dog implements Pet{
 }
 
 
-interface Pet {
-     void say();
-}

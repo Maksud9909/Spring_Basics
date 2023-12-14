@@ -4,19 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d1f144-e51d-4a91-a2a0-2d077c5622c7" name="Changes" comment="Setting Dependency Injection in Spring">
-      <change afterPath="$PROJECT_DIR$/resources/applicationContext2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/applicationContext3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/myApp.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="18d1f144-e51d-4a91-a2a0-2d077c5622c7" name="Changes" comment="Configuration with annotation">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Classes/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring_intro/MyConfig/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Tests/Test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/applicationContext3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContext3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Classes/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Classes/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Classes/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Tests/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Tests/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/Tests/Test4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Test4.executor": "Run",
+    "Application.Test5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -66,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test4">
+  <component name="RunManager" selected="Application.Test5">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.maksudrustamov.spring.App" />
       <module name="Spring_Basics" />
@@ -81,11 +84,11 @@
       </method>
     </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_intro.Test1" />
+      <option name="MAIN_CLASS_NAME" value="spring_intro.Tests.Test1" />
       <module name="Spring_Basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_intro.*" />
+          <option name="PATTERN" value="spring_intro.Classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +97,11 @@
       </method>
     </configuration>
     <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_intro.Test3" />
+      <option name="MAIN_CLASS_NAME" value="spring_intro.Tests.Test3" />
       <module name="Spring_Basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_intro.*" />
+          <option name="PATTERN" value="spring_intro.Classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +110,24 @@
       </method>
     </configuration>
     <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_intro.Test4" />
+      <option name="MAIN_CLASS_NAME" value="spring_intro.Tests.Test4" />
       <module name="Spring_Basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_intro.*" />
+          <option name="PATTERN" value="spring_intro.Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_intro.Tests.Test5" />
+      <module name="Spring_Basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring_intro.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test5" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test3" />
@@ -160,7 +177,8 @@
       <workItem from="1702489109949" duration="1474000" />
       <workItem from="1702490699159" duration="1006000" />
       <workItem from="1702491769053" duration="9000" />
-      <workItem from="1702541060725" duration="1971000" />
+      <workItem from="1702541060725" duration="4615000" />
+      <workItem from="1702552962125" duration="1865000" />
     </task>
     <task id="LOCAL-00001" summary="Learning of Spring">
       <option name="closed" value="true" />
@@ -210,12 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702392291309</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Configuration with annotation">
+      <option name="closed" value="true" />
+      <created>1702543101931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702543101931</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Learning of Spring" />
     <MESSAGE value="Setting Dependency Injection in Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting Dependency Injection in Spring" />
+    <MESSAGE value="Configuration with annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration with annotation" />
   </component>
 </project>

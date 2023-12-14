@@ -1,6 +1,8 @@
-package spring_intro;
+package spring_intro.Tests;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import spring_intro.Classes.Cat;
+import spring_intro.Classes.Person;
 
 public class Test3 {
     public static void main(String[] args) {

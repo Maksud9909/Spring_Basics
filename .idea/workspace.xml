@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d1f144-e51d-4a91-a2a0-2d077c5622c7" name="Changes" comment="End of inversion of Control">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Classes/AbstractLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Classes/SchoolLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Classes/UniLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Config/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Tests/Test1.java" afterDir="false" />
+    <list default="true" id="18d1f144-e51d-4a91-a2a0-2d077c5622c7" name="Changes" comment="Pointcat">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/ExceptionHandlingAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/LoggingAspectAfterReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/Loggingaspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/MyPointCats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/SecurityAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/UniversityLoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Classes/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Classes/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Classes/University.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Aspect/LoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Classes/UniLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AOP/Classes/UniLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Tests/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AOP/Tests/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +184,12 @@
       <workItem from="1702552962125" duration="2953000" />
       <workItem from="1702557624579" duration="624000" />
       <workItem from="1702625795921" duration="597000" />
-      <workItem from="1702664583851" duration="3809000" />
+      <workItem from="1702664583851" duration="3849000" />
+      <workItem from="1702754316008" duration="2054000" />
+      <workItem from="1702887095983" duration="1603000" />
+      <workItem from="1702956702493" duration="5456000" />
+      <workItem from="1702988425562" duration="8000" />
+      <workItem from="1703072583642" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="Learning of Spring">
       <option name="closed" value="true" />
@@ -246,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702556577114</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Pointcat">
+      <option name="closed" value="true" />
+      <created>1702670209979</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702670209979</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,6 +271,7 @@
     <MESSAGE value="Setting Dependency Injection in Spring" />
     <MESSAGE value="Configuration with annotation" />
     <MESSAGE value="End of inversion of Control" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of inversion of Control" />
+    <MESSAGE value="Pointcat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pointcat" />
   </component>
 </project>

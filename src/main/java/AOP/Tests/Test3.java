@@ -1,28 +1,24 @@
 package AOP.Tests;
 
-import AOP.Classes.Student;
-import AOP.Classes.University;
-import AOP.Config.MyConfig;
 
+import AOP.Classes.UniLibrary;
+
+import AOP.Config.MyConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.List;
 
 
-public class Test2 {
+public class Test3 {
     public static void main(String[] args) {
+        System.out.println("Method main starts");
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(MyConfig.class);
-        University university = context.getBean("university", University.class);
-
-
-        university.addStudents();
-
-            List<Student>list = university.getStudentList();
-
-
+        UniLibrary uniLibrary = context.getBean("uniLibrary",UniLibrary.class);
+        uniLibrary.returnBook();
 
 
         context.close();
+        System.out.println("Method main ends");
     }
 }

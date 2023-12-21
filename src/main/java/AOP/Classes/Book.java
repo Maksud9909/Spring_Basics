@@ -36,9 +36,5 @@ public class Book {
         this.yearOfPub = yearOfPub;
     }
 
-//    public Book(String name, String author, int yearOfPub) {
-//        this.name = name;
-//        this.author = author;
-//        this.yearOfPub = yearOfPub;
-//    }
+
 }

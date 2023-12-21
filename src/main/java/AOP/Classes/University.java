@@ -3,9 +3,11 @@ package AOP.Classes;
 
 
 
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@Component
 public class University {
     List<Student> studentList = new ArrayList<>();
     public void addStudents (){
@@ -20,6 +22,8 @@ public class University {
     }
 
     public List<Student> getStudentList() {
+        System.out.println("This is the start of the method getStudentList");
+//        System.out.println(studentList.get(4));
         System.out.println("Info from method getStudents: ");
         System.out.println(studentList);
         return studentList;

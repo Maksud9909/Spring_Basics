@@ -28,9 +28,9 @@ public class UniLibrary {
         System.out.println("---------------------------");
     }
 
-    public void returnBook() {
+    public String returnBook() {
         System.out.println("We return a book to UniLibrary");
-        System.out.println("---------------------------");
+        return "War and Peace";
     }
 
     public void addBook(String person_name,Book book){

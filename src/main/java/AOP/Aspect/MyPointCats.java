@@ -10,6 +10,4 @@ public class MyPointCats {
     public void allAddMethods(){}
 
 
-
-
 }

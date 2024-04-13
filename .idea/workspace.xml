@@ -4,19 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d1f144-e51d-4a91-a2a0-2d077c5622c7" name="Changes" comment="Updates&#10;AfterReturning">
-      <change afterPath="$PROJECT_DIR$/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/AroundAspectUniversity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AOP/Tests/Test3.java" afterDir="false" />
+    <list default="true" id="18d1f144-e51d-4a91-a2a0-2d077c5622c7" name="Changes" comment="End of AOP, start Hibernate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/OneToManyUni/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/OneToManyUni/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/OneToManyUni/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Test1/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Test1/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Test1/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Test1/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Test1/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project2/Entity/Detail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project2/Entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project2/Tests/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project2/Tests/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project3OneToManyBi/Entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project3OneToManyBi/Entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project3OneToManyBi/Tests/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Aspect/LoggingAspectAfterReturn.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Aspect/MyPointCats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/MyPointCats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Aspect/UniversityLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/UniversityLoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Classes/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AOP/Classes/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Classes/UniLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AOP/Classes/UniLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Classes/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AOP/Classes/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Tests/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AOP/Tests/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/MyConfig/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/MyConfig/MyConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +55,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AOP.Tests.Test1.executor": "Run",
+    "Application.Hibernate.OneToManyUni.Test1.executor": "Run",
+    "Application.Hibernate.Project3.Tests.Test2.executor": "Run",
+    "Application.Hibernate.Test2.Tests.Test1.executor": "Run",
+    "Application.Hibernate.Test2.Tests.Test2.executor": "Run",
+    "Application.HibernateTest.Tests.Test2.executor": "Run",
+    "Application.HibernateTest.Tests.Test3.executor": "Run",
+    "Application.Test1 (1).executor": "Run",
+    "Application.Test1.executor": "Run",
     "Application.Test2.executor": "Run",
     "Application.Test3.executor": "Run",
     "Application.Test4.executor": "Run",
@@ -58,25 +73,36 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/maksudrustamov/Documents/JavaProjects/Spring_Basics/resources",
+    "last_opened_file_path": "/Users/maksudrustamov/Documents/JavaProjects/Spring_Basics/src/main/java/Hibernate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.12040132",
     "project.structure.side.proportion": "0.23103449",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Hibernate" />
       <recent name="$PROJECT_DIR$/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="AOP.Tests" />
+      <recent name="Hibernate.OneToManyUni" />
+      <recent name="Hibernate.Project3.Tests" />
+      <recent name="Hibernate.Project3" />
+      <recent name="Hibernate.Test2.Tests" />
+      <recent name="Hibernate.Test2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test3">
+  <component name="RunManager" selected="Application.Test1 (1)">
     <configuration name="AOP.Tests.Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOP.Tests.Test1" />
       <module name="Spring_Basics" />
@@ -90,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AOP.Tests.Test2" />
+    <configuration name="Hibernate.OneToManyUni.Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hibernate.OneToManyUni.Test1" />
       <module name="Spring_Basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AOP.Tests.*" />
+          <option name="PATTERN" value="Hibernate.OneToManyUni.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,25 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AOP.Tests.Test3" />
+    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1" />
       <module name="Spring_Basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AOP.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_intro.Tests.Test4" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hibernate.Project3.Test1" />
       <module name="Spring_Basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_intro.Classes.*" />
+          <option name="PATTERN" value="Hibernate.Project3OneToManyBi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +150,11 @@
       </method>
     </configuration>
     <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_intro.Tests.Test5" />
+      <option name="MAIN_CLASS_NAME" value="Hibernate.Tests.Test5" />
       <module name="Spring_Basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_intro.Tests.*" />
+          <option name="PATTERN" value="Hibernate.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1 (1)" />
         <item itemvalue="Application.AOP.Tests.Test1" />
+        <item itemvalue="Application.Hibernate.OneToManyUni.Test1" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test5" />
-        <item itemvalue="Application.Test4" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +216,20 @@
       <workItem from="1703072583642" duration="4122000" />
       <workItem from="1703084260692" duration="2091000" />
       <workItem from="1703141484855" duration="1329000" />
-      <workItem from="1703144106323" duration="2764000" />
+      <workItem from="1703144106323" duration="9080000" />
+      <workItem from="1703177579278" duration="1291000" />
+      <workItem from="1703422481776" duration="2290000" />
+      <workItem from="1703524150933" duration="3824000" />
+      <workItem from="1703576568938" duration="1787000" />
+      <workItem from="1703579411947" duration="3810000" />
+      <workItem from="1703692207459" duration="2435000" />
+      <workItem from="1703833233905" duration="630000" />
+      <workItem from="1704267205038" duration="17000" />
+      <workItem from="1704349064986" duration="607000" />
+      <workItem from="1707884548457" duration="863000" />
+      <workItem from="1707886342863" duration="342000" />
+      <workItem from="1707886765964" duration="1808000" />
+      <workItem from="1713006434197" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="Learning of Spring">
       <option name="closed" value="true" />
@@ -278,8 +311,19 @@
       <option name="project" value="LOCAL" />
       <updated>1703073707745</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="End of AOP, start Hibernate">
+      <option name="closed" value="true" />
+      <created>1703148312175</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703148312176</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Learning of Spring" />
@@ -288,6 +332,7 @@
     <MESSAGE value="End of inversion of Control" />
     <MESSAGE value="Pointcat" />
     <MESSAGE value="Updates&#10;AfterReturning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates&#10;AfterReturning" />
+    <MESSAGE value="End of AOP, start Hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of AOP, start Hibernate" />
   </component>
 </project>

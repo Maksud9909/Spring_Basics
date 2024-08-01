@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18d1f144-e51d-4a91-a2a0-2d077c5622c7" name="Changes" comment="End of AOP, start Hibernate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/OneToManyUni/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/OneToManyUni/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/OneToManyUni/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Test1/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Test1/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Test1/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Test1/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project1/Test1/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project2/Entity/Detail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project2/Entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project2/Tests/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project2/Tests/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project3OneToManyBi/Entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project3OneToManyBi/Entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hibernate/Project3OneToManyBi/Tests/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AOP/Aspect/MyPointCats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AOP/Aspect/MyPointCats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_intro/MyConfig/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_intro/MyConfig/MyConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,40 +34,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AOP.Tests.Test1.executor": "Run",
-    "Application.Hibernate.OneToManyUni.Test1.executor": "Run",
-    "Application.Hibernate.Project3.Tests.Test2.executor": "Run",
-    "Application.Hibernate.Test2.Tests.Test1.executor": "Run",
-    "Application.Hibernate.Test2.Tests.Test2.executor": "Run",
-    "Application.HibernateTest.Tests.Test2.executor": "Run",
-    "Application.HibernateTest.Tests.Test3.executor": "Run",
-    "Application.Test1 (1).executor": "Run",
-    "Application.Test1.executor": "Run",
-    "Application.Test2.executor": "Run",
-    "Application.Test3.executor": "Run",
-    "Application.Test4.executor": "Run",
-    "Application.Test5.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/maksudrustamov/Documents/JavaProjects/Spring_Basics/src/main/java/Hibernate",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.12040132",
-    "project.structure.side.proportion": "0.23103449",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AOP.Tests.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hibernate.OneToManyUni.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hibernate.Project3.Tests.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hibernate.Test2.Tests.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hibernate.Test2.Tests.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HibernateTest.Tests.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HibernateTest.Tests.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maksudrustamov/Documents/JavaProjects/Spring_Basics/src/main/java/Hibernate&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.12040132&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.23103449&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Hibernate" />
@@ -102,7 +84,7 @@
       <recent name="Hibernate.Test2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1 (1)">
+  <component name="RunManager" selected="Application.Test4">
     <configuration name="AOP.Tests.Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOP.Tests.Test1" />
       <module name="Spring_Basics" />
@@ -149,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hibernate.Tests.Test5" />
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_intro.Tests.Test4" />
       <module name="Spring_Basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hibernate.Tests.*" />
+          <option name="PATTERN" value="spring_intro.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,18 +146,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test1 (1)" />
         <item itemvalue="Application.AOP.Tests.Test1" />
         <item itemvalue="Application.Hibernate.OneToManyUni.Test1" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test5" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.21-corretto-11.0.21-8336523bb0d9-641c9356" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -229,7 +212,10 @@
       <workItem from="1707884548457" duration="863000" />
       <workItem from="1707886342863" duration="342000" />
       <workItem from="1707886765964" duration="1808000" />
-      <workItem from="1713006434197" duration="304000" />
+      <workItem from="1713006434197" duration="2115000" />
+      <workItem from="1713257775186" duration="11000" />
+      <workItem from="1718858280765" duration="127000" />
+      <workItem from="1718876030544" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Learning of Spring">
       <option name="closed" value="true" />
@@ -319,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703148312176</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="End of AOP, start Hibernate">
+      <option name="closed" value="true" />
+      <created>1713006766726</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713006766726</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
